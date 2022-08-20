@@ -48,8 +48,8 @@ namespace MissionPlanner.Antenna
         int _panreverse = 1;
         int _tiltreverse = 1;
 
-        byte PanAddress = 0;
-        byte TiltAddress = 1;
+        byte PanAddress = 1;
+        byte TiltAddress = 2;
 
         private const byte SetTarget = 0x84;
         private const byte SetSpeed = 0x87;
